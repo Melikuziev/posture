@@ -1,0 +1,21 @@
+html,
+body
+	margin 0
+	padding 0
+
+html,
+body
+	min-height 100vh
+
+.app
+	display grid
+	grid-template-rows: auto 1fr auto
+
+.container
+	padding 0 15px
+	width 100%
+	max-width 1200px
+
+@media (min-width: $mq.xl)
+	.container
+		padding 0
