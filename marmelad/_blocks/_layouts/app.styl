@@ -3,6 +3,15 @@ body
 	margin 0
 	padding 0
 
+	a
+		text-decoration none
+		color #000
+
+	ul
+		margin 0
+		padding 0
+		list-style none
+
 html,
 body
 	min-height 100vh
@@ -12,10 +21,12 @@ body
 	grid-template-rows: auto 1fr auto
 
 .container
-	padding 0 15px
+	padding-left 15px
+	padding-right 15px
 	width 100%
 	max-width 1200px
+	margin 0 auto
 
-@media (min-width: $mq.xl)
+@media (min-width: $mq.xxl)
 	.container
 		padding 0
